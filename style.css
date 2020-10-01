@@ -50,7 +50,7 @@ background: white;
 .main-element {
   background: var(--bg-color);
   color: var(--font-color);
-  font-family: "Oswald", sans-serif;
+  font-family: 'Suisse';
   padding: 50px 30px;
 }
 
@@ -92,7 +92,7 @@ background: white;
 
   
 }
-a {
+.a {
   text-decoration: none;
   outline: none;
   display: inline-block;
@@ -113,7 +113,7 @@ a {
   transition: .3s;
 }
 
-a:hover {
+.a:hover {
   background: #2EE59D;
   box-shadow: 0 15px 20px rgba(46,229,157,.4);
   color: white;
