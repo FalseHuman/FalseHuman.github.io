@@ -6,19 +6,19 @@ function slidesPlugin() {
         return arr[randIndex];
     }
     
-   smoothly(getRandomElement(slides).classList.add('active'))
+   getRandomElement(slides).classList.add('active')
     
     for (const slide of slides){
         slide.addEventListener('click', () => {
             clearActiveClasses()
     
-            smoothly(slide.classList.add('active'))
+           slide.classList.add('active')
         })
     }
     
     function clearActiveClasses(){
         slides.forEach((slide) => {
-            smoothly(slide.classList.remove('active'))
+            slide.classList.remove('active')
         })
     }
 }
