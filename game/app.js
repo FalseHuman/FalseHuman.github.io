@@ -10,7 +10,7 @@ let count = 0
 
 
 startBtn.addEventListener('click', (event) => {
-    event.preventDefault()
+    //event.preventDefault()
     screens[0].classList.add('up')
 
 })
