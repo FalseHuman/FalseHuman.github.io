@@ -56,7 +56,7 @@ function setTime(time) {
 }
 function finishGame() {
     spanTime.parentNode.classList.add('hide')
-    board.innerHTML = `<h1>Ваш счёт: <span class="time">${count}</span><a href="#"> Начать заново</a></h1>`
+    board.innerHTML = `<h1>Ваш счёт: <span class="time">${count}</span><a href="https://falsehuman.github.io/game/#"> Начать заново</a></h1>`
 }
 
 function circleRandom(){
